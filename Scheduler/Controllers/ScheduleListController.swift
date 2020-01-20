@@ -14,6 +14,7 @@ class ScheduleListController: UIViewController {
   
   // data - an array of events
   var events = [Event]()
+    
   
   var isEditingTableView = false {
     didSet { // property observer
